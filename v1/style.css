@@ -3,7 +3,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
+  margin-top: 8%;
 }
 
 .pikachu {
@@ -64,7 +65,7 @@ body {
   width: 10px;
   height: 10px;
   background: #000;
-  top: 90px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50%;
@@ -72,11 +73,11 @@ body {
 
 .mouth {
   position: absolute;
-  width: 60px;
+  width: 70px;
   height: 30px;
   border-bottom: 4px solid #000;
   border-radius: 0 0 60px 60px;
-  top: 110px;
+  top: 135px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -87,7 +88,7 @@ body {
   height: 25px;
   background: #f44336;
   border-radius: 50%;
-  top: 100px;
+  top: 115px;
 }
 
 .left-cheek {
